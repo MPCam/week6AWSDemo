@@ -1,0 +1,57 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-week6awsdemo-dev-f136f-authRole",
+      "UnauthRoleArn": "arn:aws:iam::131707624282:role/amplify-week6awsdemo-dev-f136f-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::131707624282:role/amplify-week6awsdemo-dev-f136f-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-week6awsdemo-dev-f136f-deployment",
+      "UnauthRoleName": "amplify-week6awsdemo-dev-f136f-unauthRole",
+      "StackName": "amplify-week6awsdemo-dev-f136f",
+      "StackId": "arn:aws:cloudformation:us-east-1:131707624282:stack/amplify-week6awsdemo-dev-f136f/16ee4840-846a-11f0-9641-0e5a5d8e6de1",
+      "AmplifyAppId": "d3i9sq59ipscga"
+    }
+  },
+  "auth": {
+    "week6awsdemof8e97216": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "output": {
+        "UserPoolId": "us-east-1_8xnmH7yE2",
+        "AppClientIDWeb": "pvefvv6v7mf502voobf0pqfnf",
+        "AppClientID": "503fc2k79cvsni2nhh6k1diteg",
+        "IdentityPoolId": "us-east-1:9af3e014-b6aa-44ca-9f59-6c6a22abd8ab",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:131707624282:userpool/us-east-1_8xnmH7yE2",
+        "IdentityPoolName": "week6awsdemof8e97216_identitypool_f8e97216__dev",
+        "UserPoolName": "week6awsdemof8e97216_userpool_f8e97216"
+      },
+      "lastPushTimeStamp": "2025-08-29T03:35:37.310Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-week6awsdemo-dev-f136f-deployment/amplify-cfn-templates/auth/week6awsdemof8e97216-cloudformation-template.json",
+        "logicalId": "authweek6awsdemof8e97216"
+      }
+    }
+  }
+}
